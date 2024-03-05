@@ -1,4 +1,4 @@
 
-# Página de Cadastro: HTML, CSS e JavaScript
+# Página de Cadastro: HTML e CSS 
 
-Criei uma página de cadastro usando HTML, CSS e JavaScript. HTML para a estrutura, CSS para o design e JavaScript para a interatividade. O resultado? Uma experiência de cadastro intuitiva e atraente.
+Criei uma página de cadastro usando HTML e CSS. HTML para a estrutura, CSS para o design. O resultado? Uma experiência de cadastro intuitiva e atraente.
