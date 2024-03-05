@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <link rel="stylesheet" href="stylelogin.css"> 
+    
+</head>
+   <body>
+      <header>
+         <div class="header-mobile">
+             <div class="Title">
+                 <h1><span class="Learn">Learn</span><span class="View">View</span></h1>
+             </div>
+             <label for="mobile" class="side-bars"><i class="fa-solid fa-bars fa-2xl" style="color: #000000;"></i></label>
+         </div>
+         <input type="checkbox" id="mobile">
+            <div class="menu">
+                <label for="mobile" class="close"><i class="fa-solid fa-xmark fa-lg" style="color: #000000;"></i></label>
+                <nav class="menuh">
+                    <ul class="menuop">
+                            <li><a href="">Home</a></li>                            
+                            <li><a href="cadastro.html">Cadastro</a></li>                            
+                            
+                    </ul>
+                    
+                </nav>
+        </div>
+      </header>
+
+   
+   <div class='container'>
+     <div class='card'>
+       <h1> Login </h1>
+       
+       <div id='msgError'></div>
+       <div id='msgSuccess'></div>
+       
+               <div class="label-float">
+                  <input type="text" id="usuario" placeholder=" " required>
+                  <label id="labelUsuario" for="usuario">Email</label>
+               </div>
+               <div class="label-float">
+                  <input type="password" id="senha" paceholder="" required />
+                  <label id="senhaLabel" for="senha">Senha</label>
+                  <i class="fa fa-eye" aria-hidden="true"></i>
+                </div>
+        
+                <div class="justify-center">
+                  <button onclick="entrar()">Entrar</button>
+                </div>
+        
+                <div class="justify-center">
+                  <hr />
+                </div><br>
+        
+                
+                <p>
+                  Não tem uma conta?
+                  <a href="cadastro.html">
+                    Cadastre-se
+                  </a>
+                </p>
+              </div>
+            </div>
+        
+     <script src="login.js"></script>
+   </body>
+   
+</html>
